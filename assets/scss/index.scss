@@ -1,0 +1,64 @@
+@import "variables";
+
+@media screen {
+  body {
+    margin: 16px;
+    background-color: #999;
+  }
+
+  page[size="A4"] {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 1cm 1cm;
+  }
+}
+
+body {
+  color: $text-default;
+}
+
+html {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 14px;
+}
+
+a {
+  &,
+  &:focus,
+  &:hover {
+    color: inherit;
+  }
+}
+
+.fa {
+  font-size: 0.8em;
+}
+
+.divider {
+  margin: 0 8px;
+
+  &::after {
+    content: "|";
+  }
+}
+
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@import "style";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap");
