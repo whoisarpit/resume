@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch --no-source-map assets/scss:css",
+    "sass": "sass --watch --no-source-map assets/scss:assets/css",
     "serve": "http-server -c-1",
     "build": "rm -rf dist; mkdir dist; sass assets/scss:assets/css; cp index.html dist/; cp -r assets dist"
   },

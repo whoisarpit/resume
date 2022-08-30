@@ -38,8 +38,8 @@
   margin-top: 8px;
 }
 
-@media print {
-  .hide-on-print {
+.hide-on-print {
+  @media print {
     display: none;
   }
 }

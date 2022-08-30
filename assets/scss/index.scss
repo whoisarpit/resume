@@ -3,7 +3,7 @@
 @media screen {
   body {
     margin: 16px;
-    background-color: #999;
+    background-color: #666;
   }
 
   page {
@@ -18,7 +18,7 @@
 
   page[size="A4"] {
     width: 21cm;
-    height: 29.7cm;
+    min-height: 29.7cm;
   }
 }
 
