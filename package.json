@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass --watch --no-source-map assets/scss:css",
     "serve": "http-server -c-1",
-    "build": "sass assets/scss:dist/css; cp index.html dist/"
+    "build": "rm -rf dist; mkdir dist; sass assets/scss:assets/css; cp index.html dist/; cp -r assets dist"
   },
   "author": "",
   "license": "ISC",

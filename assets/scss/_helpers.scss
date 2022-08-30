@@ -1,0 +1,45 @@
+.ml-2,
+.mx-2 {
+  margin-left: 4px;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 4px;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 4px;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 4px;
+}
+
+.ml-4,
+.mx-4 {
+  margin-left: 8px;
+}
+
+.mr-4,
+.mx-4 {
+  margin-right: 8px;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 8px;
+}
+
+.mt-4,
+.my-4 {
+  margin-top: 8px;
+}
+
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}

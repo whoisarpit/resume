@@ -5,7 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      target="_blank"
+      href="assets/css/index.css"
+    />
     <script
       src="https://kit.fontawesome.com/fb850b8710.js"
       crossorigin="anonymous"
@@ -22,19 +45,25 @@
         <div class="contact">
           <span class="contact__section">
             <i class="fa fa-phone"></i>
-            <a href="tel:+6581634157">(65) 8163 4157</a>
+            <a target="_blank" href="tel:+6581634157">(65) 8163 4157</a>
           </span>
           <span class="contact__section">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:arpit9295@gmail.com">arpit9295@gmail.com</a>
+            <a target="_blank" href="mailto:arpit9295@gmail.com"
+              >arpit9295@gmail.com</a
+            >
           </span>
           <span class="contact__section">
             <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/whoisarpit">whoisarpit</a>
+            <a target="_blank" href="https://github.com/whoisarpit"
+              >whoisarpit</a
+            >
           </span>
           <span class="contact__section">
             <i class="fa-brands fa-linkedin"></i>
-            <a href="https://linkedin.com/in/whoisarpit">whoisarpit</a>
+            <a target="_blank" href="https://linkedin.com/in/whoisarpit"
+              >whoisarpit</a
+            >
           </span>
         </div>
       </div>
@@ -76,22 +105,101 @@
                   <div class="small accent">Jan '19 - Present</div>
                 </div>
               </div>
-              <h4>Home Care Visit Scheduler</h4>
-              <div class="small">
-                A product for complete management of Home-Care Services in the
-                UK market
+              <div>
+                <h4>Home Care Visit Scheduler</h4>
+                <div class="small">
+                  A product for complete management of Home-Care Services in the
+                  UK market
+                </div>
+                <ul>
+                  <li>
+                    Solved a multi-constrained optimization problem for
+                    scheduling and allocation
+                  </li>
+                  <li>
+                    Built the CI/CD Pipelines, completely designed the system
+                    architecture <i class="small">(AWS, Jenkins</i>
+                  </li>
+                  <li>Product Design and UX Design</li>
+                </ul>
               </div>
-              <ul>
-                <li>
-                  Solved a multi-constrained optimization problem for scheduling
-                  and allocation
-                </li>
-                <li>
-                  Built the CI/CD Pipelines, completely designed the system
-                  architecture
-                </li>
-                <li>Product Design and UX Design</li>
-              </ul>
+            </div>
+            <div class="subsection">
+              <div class="subsection__header">
+                <h3>qplum</h3>
+                <div class="subsection__subtitle">
+                  <div class="small accent">Frontend Developer</div>
+                  <div class="small accent">Dec '17 - Dec '18</div>
+                </div>
+                <div class="small">
+                  Algo-trading finance firm operating on US Stock Markets
+                </div>
+              </div>
+              <div>
+                <h4>
+                  Quant-based RoboInvesting platform
+                  <a
+                    target="_blank"
+                    href="https://web.archive.org/web/20190130024618/https://www.qplum.co/"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </h4>
+                <ul>
+                  <li>
+                    Completely revamped the Account opening flow for the
+                    website. <i class="small">(AngularJS)</i>
+                  </li>
+                  <li>
+                    Revamped the CI/CD Pipelines <i class="small">(GoCD)</i>
+                  </li>
+                  <li>
+                    Worked on the mobile app <i class="small">(React Native)</i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection__header">
+                <h3>Kuliza</h3>
+                <div class="subsection__subtitle">
+                  <div class="small accent">Frontend Developer</div>
+                  <div class="small accent">Feb '17 - Nov '17</div>
+                </div>
+              </div>
+              <div>
+                <h4>
+                  UTI Mutual Funds
+                  <a href="https://utimf.com/"><i class="fa fa-link"></i></a>
+                </h4>
+                <div class="small">
+                  Built the mutual funds sales website for the largest mutual
+                  funds provider in India
+                </div>
+                <ul>
+                  <li>
+                    Did a major code quality revamp, set up git hooks and ESLint
+                    based quality checking and fixing. Refactored a lot of code
+                    to improve code re-usability between projects
+                  </li>
+                </ul>
+                <h4>
+                  HDFC Life
+                  <a href="https://www.hdfclife.com/"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </h4>
+                <div class="small">
+                  Built the insurance site for of the largest bank and insurance
+                  providers in India
+                </div>
+                <h4>
+                  iBidMyHome
+                  <a href="https://watabid.com/"><i class="fa fa-link"></i></a>
+                </h4>
+                <ul>
+                  <li>Managed a team of 5</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="section">
@@ -117,5 +225,9 @@
         </div>
       </div>
     </page>
+    <button
+      class="floating-btn fa fa-print hide-on-print"
+      onclick="window.print()"
+    ></button>
   </body>
 </html>
