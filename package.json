@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch --no-source-map assets/scss:assets/css",
-    "serve": "http-server -c-1"
+    "sass": "sass --watch --no-source-map assets/scss:css",
+    "serve": "http-server -c-1",
+    "build": "sass assets/scss:dist/css; cp index.html dist/"
   },
   "author": "",
   "license": "ISC",
