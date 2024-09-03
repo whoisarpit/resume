@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       live-server:
         specifier: ^1.2.2
         version: 1.2.2
